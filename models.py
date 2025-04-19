@@ -3,6 +3,7 @@ from sqlalchemy import String, Date, Time, Float
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import Mapped, mapped_column
 
+# This is a base class for SQLAlchemy models.
 class Base(DeclarativeBase):
     pass
 

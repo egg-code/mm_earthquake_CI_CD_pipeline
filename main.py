@@ -1,3 +1,4 @@
+import os
 import psycopg2
 from datetime import datetime
 from etl_utils import E, T, L, Saveids, Loadids
@@ -47,11 +48,11 @@ print("Data Updating...")
 ## Transform the data
 logging.info("Transforming data...")
 transformed_df = T(raw_df).transform()
-print(transformed_df.head())
+print(transformed_df)
 print(transformed_df.info())
 
 ## Load the data to PostgreSQL
-postgres_url = 'postgresql://neondb_owner:npg_hvASCWw4xkT1@ep-solitary-water-a1eo9cj6-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require'
+postgres_url = os.getenv("POSTGRES_URL")
 engine = create_engine(postgres_url)
 Session = sessionmaker(bind=engine)
 session = Session()

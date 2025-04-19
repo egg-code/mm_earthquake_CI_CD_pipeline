@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from datetime import datetime, timedelta
+from datetime import datetime
 import requests, json
 from sqlalchemy.orm import sessionmaker
 from models import Earthquake, Base
