@@ -31,7 +31,7 @@ jobs:
       # Step 4: Run the ETL script
       - name: Run ETL script
         run: |
-          python etl_script.py
+          python main.py
         env:
           POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
 
