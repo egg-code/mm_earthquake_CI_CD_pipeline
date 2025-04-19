@@ -40,7 +40,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add save_ids.txt
+          git add ids.txt
           # Only commit if there are changes
-          git diff --cached --quiet || git commit -m "Update save_ids.txt with new IDs"
+          git diff --cached --quiet || git commit -m "Update ids.txt with new IDs"
           git push
