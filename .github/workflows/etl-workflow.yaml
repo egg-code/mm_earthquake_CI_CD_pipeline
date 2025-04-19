@@ -1,5 +1,8 @@
 name: Myanmar Earthquake ETL Pipeline
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: '*/2 * * * *'  # Runs every 2 minutes
   workflow_dispatch:
