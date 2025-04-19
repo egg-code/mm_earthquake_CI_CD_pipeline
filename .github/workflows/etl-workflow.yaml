@@ -4,7 +4,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "* * * * *"  # Runs every 2 minutes
+    - cron: "*/5 * * * *"  # Runs every minute
   workflow_dispatch:
 
 permissions:
