@@ -30,7 +30,8 @@ except Exception as e:
     logging.error(f"Error extracting data: {e}")
     exit(1) # Abnormal exit
 
-## Use try except finally to check for new data. If there is no new data, it will not save the ids to txt file.
+## Check new data with the previous data
+logging.info("Checking for new data...")
 load = Loadids('ids.txt')
 ex_ids = load.load_check_ids()
 raw_df = raw_df[~raw_df['id'].isin(ex_ids)]
