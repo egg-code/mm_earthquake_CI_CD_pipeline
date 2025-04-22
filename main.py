@@ -74,15 +74,3 @@ except Exception as e:
 finally:
     session.close()
     engine.dispose()
-
-
-
-
-
-     
-
-
-    
-
-
-
