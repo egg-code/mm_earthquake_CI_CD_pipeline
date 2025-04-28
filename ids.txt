@@ -59,12 +59,4 @@ us7000pc5t
 us7000pc5s
 us6000q72i
 us6000q565
-us7000puj0
-us7000putd
-us7000pus6
-us6000q55v
-us6000q55u
-us6000q4ke
-us6000q4kb
-us6000q4k2
-us6000q4jp
+
