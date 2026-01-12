@@ -165,3 +165,4 @@ us7000rlx8
 us7000rmhe
 us7000rmhd
 us7000rmss
+us7000rp2s
