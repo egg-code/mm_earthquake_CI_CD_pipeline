@@ -167,3 +167,4 @@ us7000rmhd
 us7000rmss
 us7000rp2s
 us7000rpuq
+us7000rql1
