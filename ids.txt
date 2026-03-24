@@ -185,3 +185,4 @@ us7000s0tm
 us7000s27v
 us6000sgsp
 us7000s05i
+us7000s73v
