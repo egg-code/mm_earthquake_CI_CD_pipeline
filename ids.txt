@@ -204,3 +204,4 @@ us6000ss01
 us6000ssum
 us6000srux
 us6000sagi
+us7000sibr
