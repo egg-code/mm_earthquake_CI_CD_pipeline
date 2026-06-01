@@ -209,3 +209,4 @@ us6000sws5
 us6000t08d
 us7000sntk
 us7000sp9a
+us7000spcx
