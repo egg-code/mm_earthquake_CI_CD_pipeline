@@ -212,3 +212,4 @@ us7000sp9a
 us7000spcx
 us7000sqkf
 us7000sr6r
+us7000srnl
