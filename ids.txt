@@ -216,3 +216,4 @@ us7000srnl
 us7000ssem
 us7000sswu
 us7000suc2
+us7000suse
