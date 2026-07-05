@@ -218,3 +218,5 @@ us7000sswu
 us7000suc2
 us7000suse
 us7000sv7t
+us6000ta3g
+us6000ta3d
