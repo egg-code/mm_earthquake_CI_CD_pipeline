@@ -220,3 +220,4 @@ us7000suse
 us7000sv7t
 us6000ta3g
 us6000ta3d
+us6000t9cp
