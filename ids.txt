@@ -241,3 +241,4 @@ us6000ti1p
 us6000tkni
 us7000tgq0
 us7000thbx
+us7000tcas
